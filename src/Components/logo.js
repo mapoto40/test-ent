@@ -1,10 +1,6 @@
-import s from './css/logo.module.css'
-
 const Logo = () => {
     return(
-       <div>
-           mapoto's Ent
-       </div> 
+    <img src='https://cdn.discordapp.com/attachments/933079007237378051/970404450294435860/Logo.png'/>
     )
 }
 

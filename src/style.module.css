@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
-body {
-  background-color: black;
-  background: url('https://cdn.discordapp.com/attachments/933079007237378051/968980478587707483/Desktop_-_5.png'), no-repeat;
-  background-size: 100% 100vh;
+*{
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+  background: url('https://cdn.discordapp.com/attachments/933079007237378051/970392836925190144/Desktop_-_14_1.png'), no-repeat;
+  background-size: 100% 100vh;
 }

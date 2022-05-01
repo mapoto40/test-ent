@@ -4,9 +4,9 @@ import Pageinscription from './Pages/inscription';
 
 const App = () => {
   return (
-    <div>
-        <Pageinscription />
-    </div>
+    <>
+      <Pageinscription/>
+    </>
   );
 }
 
