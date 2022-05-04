@@ -4,13 +4,45 @@
 }
 .enfant{
     margin: auto;
+    width: 50vh;
 }
 .svg_class{
     color: red;
     background-color: red;
-    width: 25px;
+    width: 18px;
     border-radius: 100vh;
+    margin-bottom: -4px;
+    margin-left: 10px;
 }
 .svg_class path{
     color: white;
+}
+.head_ins{
+    display: flex;
+    justify-content: flex-end;
+    
+    border-radius: 10px 10px 0 0;
+    padding-top: .5%;
+    padding-bottom: 1%;
+    background: #2D3750;
+}
+.head_ins div{
+    font-size: 12.5px;
+    margin-right: 2.5vh;
+}
+.logo_adjust{
+    text-align: center;
+    align-items: center;
+}
+.logo_adjust img{
+    width: 200px;
+    display: flex;
+    margin: auto;
+}
+.foot{
+    padding: 5vh;
+    padding-top: 0;
+    background-color: rgba(23, 25, 33, 0.9);
+
+    border-radius: 0 0 10px 10px;
 }
