@@ -15,9 +15,18 @@ const Pageinscription = () => {
                         </div>
                     </div>
                     <div className={s.foot}>
+                        <center>
                         <div className={s.logo_adjust}><Logo/> <br/>
-                            <p>test</p>
+                        
+                        <div className={s.form_ins}>
+                            <input type="text" id="id_pseudo" placeholder='Your pseudo'/> <br/>
+                            <input type="email" id="id_email" placeholder='Your email'/> <br/>
+                            <input type="text" id="id_psw" placeholder='Your password'/> <br/>
+                            <input type="text" id="id_psw" placeholder='Password confirmation'/> <br/>
                         </div>
+                            <button>Submit</button>
+                        </div>
+                        </center>
                     </div>
                 </div>
             </div>
